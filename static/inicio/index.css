@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Teko:wght@500;600;700&display=swap');
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.4em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: -3px;
+    color: var(--white);
+}
+.info {
+    color: var(--orange);
+}
+
+p {
+    color: var(--white);
+}
+
+h4 {
+    font-size: 1.6em;
+    font-weight: bold;
+    color: var(--orange);
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1.2px;
+}
+
+img {
+    max-height: 400px;
+    display: block;
+}
+a:hover {
+    text-decoration: none;
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.25) 8px 8px 10px 0px;
+    border-radius: 10px;
+    background-color: var(--mid-blue);
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.select-device {
+    color: var(--white);
+    font-size: 2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -3px;
+}
+.card-logo{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: var(--orange);
+    color: var(--white);
+}
+.title-card{
+    font-size: 1.3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+.card-wave{
+    margin-top: -12px;
+    color: var(--orange);
+}
+
+.fa-microchip{
+    color: var(--white);
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.card-body{
+    padding-top: 0px;
+}
+
+.card-footer{
+    padding: .1rem 1.25rem;
+}
+/*.card-img-top {
+    height: 100px;
+    width: 100px;
+}*/
+
+#boton{
+    background-color: var(--orange);
+    color: var(--white);
+    font-weight: 700;
+}
+
+#boton:hover{
+    background-color: #FF2525;
+}
+
+.video {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    display: block;
+    margin-bottom: 3px;
+    font-size: 1.6em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: -3px;
+    color: var(--white);
+}

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap'); 
+
+:root{
+    --dark-blue: #233963;
+    --blue: #32A2B8;
+    --white: #FFFFFF;
+    --dark: #222831;
+    --pastel: #DDDDDD;
+    --orange: #F05454;
+    --mid-blue: #30475E;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: var(--dark); /* fallback for old browsers */
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+i {
+  margin-right: 10px;
+}
+
+#main-container{
+  min-height: 8vh;
+}
+
+.navbar-tittle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.navbar-brand {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: -3px;
+  margin: 0px;
+  color: var(--orange);
+  font-style: italic;
+  font-size: 2.5em;
+  font-weight: bold;
+
+}
+
+.navbar-tittle:hover{
+    transform: scale(1);
+    text-decoration: none;
+}
+
+
+.navbar-logo{
+    height: 60px;
+    width: auto;
+}
+
+.navbar-mainbg {
+  background-color: var(--dark-blue);
+  padding: 0px;
+}
+
+
+footer {
+  background-color: var(--dark-blue);
+}
+
+i {
+  color: var(--orange);
+}
+
+#copy {
+  background-color: #0A1528;
+  color: var(--white);
+}
+
+#copy > a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.navbar-logo-background:hover{
+  text-decoration: none;
+}
