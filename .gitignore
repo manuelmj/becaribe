@@ -62,3 +62,7 @@ docs/_build/
 
 # PyBuilder
 target/
+
+.gitignore
+pruebasMqtt.py
+becaribe-wsgi
